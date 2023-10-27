@@ -7,21 +7,15 @@
     "node": ">=16.0.0"
   },
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node index.js"
   },
-  "keywords": [
-    "proxy"
-  ],
   "author": "",
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "@titaniumnetwork-dev/ultraviolet": "^1.0.10",
-    "@tomphttp/bare-server-node": "^2.0.0",
-    "axios": "^1.4.0",
-    "compression": "^1.7.4",
+    "@tomphttp/bare-server-node": "^1.2.6",
     "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "static": "file:static"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "eslint": "^8.36.0",
