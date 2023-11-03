@@ -7,7 +7,7 @@ import cors from 'cors';
 const __dirname = process.cwd();
 const server = http.createServer();
 const app = express(server);
-const bareServer = createBareServer('/outerspace/');
+const bareServer = createBareServer('/periodic/');
 const PORT = 8080;
 
 app.use(express.json());
@@ -17,8 +17,8 @@ app.use(express.static(path.join(__dirname, 'static')));
 
 const routes = [
   { path: '/', file: 'index.html' },
-  { path: '/news', file: 'apps.html' },
-  { path: '/algebra', file: 'games.html' },
+  { path: '/paper', file: 'apps.html' },
+  { path: '/carbon', file: 'games.html' },
   { path: '/diagnostic', file: 'settings.html' },
   { path: '/tabs', file: 'tabs.html' },
   { path: '/go', file: 'go.html' },
